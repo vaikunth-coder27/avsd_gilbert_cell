@@ -161,22 +161,22 @@
   
    - output Graph - 1
    
-   ![output graph - 1](output1.jpg)
+   ![output graph - 1](Pre_layout_simulation/output1.jpg)
    
    
    - output Graph - 2
    
-   ![output Graph - 2](output2.jpg)
+   ![output Graph - 2](Pre_layout_simulation/output2.jpg)
    
    
    - output Graph - 3
    
-   ![output Graph - 3](output3.jpg)
+   ![output Graph - 3](Pre_layout_simulation/output3.jpg)
    
    
    - Total Harmonic Distortion(THD)
    
-   ![THD](THD.jpg)
+   ![THD](Pre_layout_simulation/THD.jpg)
    
 
 <h3 id="L">Layout Design Using Magic</h3>
@@ -222,22 +222,22 @@
   
    - output Graph - 1
    
-   ![output Graph - 1](output1.PNG)
+   ![output Graph - 1](Post_layout_simulation/output1.PNG)
    
    
    - output Graph - 2
    
-   ![output Graph - 2](output2.PNG)
+   ![output Graph - 2](Post_layout_simulation/output2.PNG)
    
    
    - output Graph - 3
    
-   ![output Graph - 3](output3.PNG)
+   ![output Graph - 3](Post_layout_simulation/output3.PNG)
    
    
    - Total Harmonic Distortion(THD)
    
-   ![THD](THD.jpg)
+   ![THD](Post_layout_simulation/THD.jpg)
    
 # Author 
   - Vaikunth Guruswamy
