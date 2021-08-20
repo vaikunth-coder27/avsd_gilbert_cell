@@ -48,7 +48,7 @@
 
 <h3 id="B">Block Diagram</h3>
  
- ![Block_Diagram](Images/block_diagram.png)
+ ![Block_Diagram](Images/block_diagram.PNG)
  
 
 <h3 id="I">Installation</h3>
@@ -160,17 +160,17 @@
   
    - output Graph - 1
    
-   ![Block_Diagram](output1.jpg)
+   ![Block_Diagram](output1.PNG)
    
    
    - output Graph - 2
    
-   ![Block_Diagram](output2.jpg)
+   ![Block_Diagram](output2.PNG)
    
    
    - output Graph - 3
    
-   ![Block_Diagram](output3.jpg)
+   ![Block_Diagram](output3.PNG)
    
    
    - Total Harmonic Distortion(THD)
@@ -186,7 +186,7 @@
   $ cp sky130A.tech <target-destination>
   ```
   
-   ![Block_Diagram](Images/magic_simulation.png)
+   ![Block_Diagram](Images/magic_simulation.PNG)
    
    - Save the changes made by executing
    ```
@@ -221,17 +221,17 @@
   
    - output Graph - 1
    
-   ![Block_Diagram](output1.jpg)
+   ![Block_Diagram](output1.PNG)
    
    
    - output Graph - 2
    
-   ![Block_Diagram](output2.jpg)
+   ![Block_Diagram](output2.PNG)
    
    
    - output Graph - 3
    
-   ![Block_Diagram](output3.jpg)
+   ![Block_Diagram](output3.PNG)
    
    
    - Total Harmonic Distortion(THD)
