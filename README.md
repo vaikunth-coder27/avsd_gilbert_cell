@@ -51,12 +51,12 @@
 
 <h3 id="I">Installation</h3>
  
-- The eSim Software is available for Windows 7, 8 and 10 and Ubuntu 16.04 LTS and above
+- The eSim software is available for Windows 7, 8 and 10 and Ubuntu 16.04 LTS and above
 
-- The magic Design Tool is available for Ubuntu
+- The magic design tool is available for Ubuntu
 - ngspice is auto-installed when eSim is installed,for higher version do refer [ngspice installation](#ng) section
 
-- The Pre-requisites for installing the following in Ubuntu are 
+- The pre-requisites for installing the following in Ubuntu are 
     ```
     $ sudo apt-get update
     ```
@@ -86,7 +86,7 @@
 # SkyWater PDK Installation
 
 - For Windows
-    - Download the GitHub Repository : https://github.com/google/skywater-pdk
+    - Download the GitHub repository : https://github.com/google/skywater-pdk
 
 - For Ubuntu
     In terminal, execute the following commands
