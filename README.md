@@ -57,7 +57,7 @@
 - The eSim Software is available for Windows 7, 8 and 10 and Ubuntu 16.04 LTS and above
 
 - The Magic Design Tool is available for Ubuntu
-- Ngspice is auto-installed when eSim is installed,for higher version do refer [Ngspice installation](#Ngspice_Installation) section
+- Ngspice is auto-installed when eSim is installed,for higher version do refer [Ngspice installation](#ng) section
 
 - The Pre-requisites for installing the following in Ubuntu are 
     ```
@@ -82,7 +82,7 @@
 
 - https://github.com/FOSSEE/eSim/blob/master/INSTALL
 
-# Ngspice Installation
+<h3 id="ng">Ngspice Installation</h3>
 
 - http://ngspice.sourceforge.net/download.html
 
