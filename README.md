@@ -237,7 +237,7 @@
    ![THD](Post_layout_simulation/THD.jpg)
    
 # Author 
-  - Vaikunth Guruswamy
+  - Vaikunth Guruswamy, ECE, MIT Anna University
 
 # Acknowledgements
   
