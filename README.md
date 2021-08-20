@@ -5,9 +5,6 @@
   
   ![Size](https://img.shields.io/github/repo-size/vaikunth-coder27/avsd_gilbert_Cell?color=success) ![Last Commit](https://img.shields.io/github/last-commit/vaikunth-coder27/avsd_gilbert_Cell?color=blueviolet) ![License](https://img.shields.io/github/license/vaikunth-coder27/avsd_gilbert_Cell?color=blue)
 
-# Acknowledgements
-  
-  - Kunal Ghosh, Co-founder, VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
 
 # Content
   - [Open Source Tools Required](#O)
@@ -242,7 +239,9 @@
 # Author 
   - Vaikunth Guruswamy
 
-
+# Acknowledgements
+  
+  - Kunal Ghosh, Co-founder, VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
   
   
    
