@@ -2,6 +2,7 @@
   ![Block_Diagram](Images/circuit.PNG)
   
   - The aim of the project is to simulated **Gilbert Multiplier Cell** using Skywater 130 nm PDK and other open source softwares
+  
   ![Size](https://img.shields.io/github/repo-size/vaikunth-coder27/avsd_gilbert_Cell?color=success) ![Last Commit](https://img.shields.io/github/last-commit/vaikunth-coder27/avsd_gilbert_Cell?color=blueviolet) ![License](https://img.shields.io/github/license/vaikunth-coder27/avsd_gilbert_Cell?color=blue)
 
 # Acknowledgements
