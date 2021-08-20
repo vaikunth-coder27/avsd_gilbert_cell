@@ -156,17 +156,17 @@
   
   # Output Graphs
   
-   - output Graph - 1
+   - Output Graph - 1
    
    ![output graph - 1](Pre_layout_simulation/output1.jpg)
    
    
-   - output Graph - 2
+   - Output Graph - 2
    
    ![output Graph - 2](Pre_layout_simulation/output2.jpg)
    
    
-   - output Graph - 3
+   - Output Graph - 3
    
    ![output Graph - 3](Pre_layout_simulation/output3.jpg)
    
@@ -217,17 +217,17 @@
   
   # Output Graphs
   
-   - output Graph - 1
+   - Output Graph - 1
    
    ![output Graph - 1](Post_layout_simulation/output1.PNG)
    
    
-   - output Graph - 2
+   - Output Graph - 2
    
    ![output Graph - 2](Post_layout_simulation/output2.PNG)
    
    
-   - output Graph - 3
+   - Output Graph - 3
    
    ![output Graph - 3](Post_layout_simulation/output3.PNG)
    
