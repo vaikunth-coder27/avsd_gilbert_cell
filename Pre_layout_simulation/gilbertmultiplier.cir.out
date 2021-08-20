@@ -1,0 +1,27 @@
+* /home/vaikunth/esim-workspace/keepsitmultiplier/keepsitmultiplier.cir
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+xm3 vout1 v2 i2 i2 sky130_fd_pr__nfet_01v8 W=6 L=0.18 M=1
+xm1 vout1 v1 i1 i1 sky130_fd_pr__nfet_01v8 W=6 L=0.18 M=1
+xm2 vout2 v2 i1 i1 sky130_fd_pr__nfet_01v8 W=6 L=0.18 M=1
+xm4 vout2 v1 i2 i2 sky130_fd_pr__nfet_01v8 W=6 L=0.18 M=1
+v1  gnd i1 sine(1mA 0.25mA 2g 0 0)
+v3  gnd i2 sine(1mA -0.25mA 2g 0 0)
+v4  v1 gnd sine(2V 1V 1g 0 0)
+v2  v2 gnd sine(2V -1V 1g 0 0)
+v5 net-_r1-pad1_ gnd  dc 1.8V
+r2  net-_r1-pad1_ vout2 300
+r1  net-_r1-pad1_ vout1 300
+.tran 10e-12 10e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot V(vout1)
+plot V(vout2)
+plot (V(vout1) - V(vout2))
+.endc
+.end
+

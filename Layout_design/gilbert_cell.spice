@@ -1,0 +1,10 @@
+* SPICE3 file created from gilbert_cell.ext - technology: sky130A
+
+.option scale=10000u
+
+X0 VOUT1 VDD GND sky130_fd_pr__res_generic_nd w=18 l=45
+X1 VOUT2 VDD GND sky130_fd_pr__res_generic_nd w=18 l=45
+X2 VOUT2 V2 V1 GND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=600 l=18
+X3 V3 V2 VOUT1 GND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=600 l=18
+X4 VOUT2 V4 V3 GND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=600 l=18
+X5 V1 V4 VOUT1 GND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=600 l=18

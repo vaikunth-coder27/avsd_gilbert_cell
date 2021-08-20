@@ -1,0 +1,42 @@
+* SPICE3 file created from keepsit.ext - technology: sky130A
+
+
+
+
+
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+
+X0 VOUT2 V2 V1 GND sky130_fd_pr__nfet_01v8 w=6 l=0.18
+
+X1 V3 V2 VOUT1 GND sky130_fd_pr__nfet_01v8 w=6 l=0.18
+
+X2 VOUT2 V4 V3 GND sky130_fd_pr__nfet_01v8 w=6 l=0.18
+
+X3 V1 V4 VOUT1 GND sky130_fd_pr__nfet_01v8 w=6 l=0.18
+
+
+X4 VOUT1 VDD GND sky130_fd_pr__res_generic_nd w=18 l=45
+
+X5 VOUT2 VDD GND sky130_fd_pr__res_generic_nd w=18 l=45
+
+
+v1  GND V1 sine(1mA 0.25mA 2g 0 0)
+v3  GND V3 sine(1mA -0.25mA 2g 0 0)
+v4  V4 GND sine(2V 1V 1g 0 0)
+v2  V2 GND sine(2V -1V 1g 0 0)
+v5 VDD GND  dc 1.8V
+
+.tran 10e-12 10e-09 0e-09
+
+* Control Statements 
+.control
+run
+
+plot v(vout1)-v(vout2)
+
+
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
