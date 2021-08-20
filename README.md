@@ -24,7 +24,7 @@
 
 - <a href='https://esim.fossee.in/home' target="_blank"> **eSim** </a>
 
-    - **eSim** (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as **KiCad, Ngspice and GHDL**. eSim is released under GPL.
+    - **eSim** (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as **KiCad, ngspice and GHDL**. eSim is released under GPL.
 
     - **eSim** offers similar capabilities and ease of use as any equivalent proprietary software for schematic creation, simulation and PCB design, without having to pay a huge amount of money to procure licenses. Hence it can be an affordable alternative to educational institutions and SMEs. It can serve as an alternative to commercially available/licensed software tools like OrCAD, Xpedition and HSPICE.
 
@@ -36,12 +36,12 @@
  
 - <a href='http://ngspice.sourceforge.net/' target="_blank"> **ngspice** </a>
 
-  - Ngspice is a mixed-level/mixed-signal electronic circuit simulator. 
+  - ngspice is a mixed-level/mixed-signal electronic circuit simulator. 
 
 
 - <a href='http://opencircuitdesign.com/magic/' target="_blank"> **magic** </a>
 
-  - Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
+  - magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
 
 
 <h3 id="B">Block Diagram</h3>
@@ -53,8 +53,8 @@
  
 - The eSim Software is available for Windows 7, 8 and 10 and Ubuntu 16.04 LTS and above
 
-- The Magic Design Tool is available for Ubuntu
-- Ngspice is auto-installed when eSim is installed,for higher version do refer [Ngspice installation](#ng) section
+- The magic Design Tool is available for Ubuntu
+- ngspice is auto-installed when eSim is installed,for higher version do refer [ngspice installation](#ng) section
 
 - The Pre-requisites for installing the following in Ubuntu are 
     ```
@@ -79,7 +79,7 @@
 
 - https://github.com/FOSSEE/eSim/blob/master/INSTALL
 
-<h3 id="ng">Ngspice Installation</h3>
+<h3 id="ng">ngspice Installation</h3>
 
 - http://ngspice.sourceforge.net/download.html
 
@@ -110,7 +110,7 @@
         $ sudo make install
         ```
 
-# Magic Installation
+# magic Installation
 
 - To download the repository into the current working directory
     ```
@@ -176,7 +176,7 @@
    ![THD](Pre_layout_simulation/THD.jpg)
    
 
-<h3 id="L">Layout Design Using Magic</h3>
+<h3 id="L">Layout Design Using magic</h3>
 
   - Now navigate to sky130_nm_PDK from base working directory
   ```
